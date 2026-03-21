@@ -1,6 +1,6 @@
 # Java-learning-path
 
-# HELLO WORLD
+# Hello World
 
 # Variables
 
