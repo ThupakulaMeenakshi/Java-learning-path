@@ -1,10 +1,15 @@
-public class MaxOfTwo {
-    public static void main(String v[]) {
-        int a = 5;
-        int b = 6;
+class Max {
+    public int max(int a, int b) {
         if (a > b)
-            System.out.println(a);
-        else
-            System.out.println(b);
+            return a;
+        return b;
+    }
+}
+
+public class MaxOfTwo {
+    public static void main(String[] args) {
+        Max big = new Max();
+        int result = big.max(4, 5);
+        System.out.println(result);
     }
 }
